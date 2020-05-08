@@ -1,4 +1,4 @@
-# mfe-app-main
+# micro-fe
 
 ## Project setup
 ```

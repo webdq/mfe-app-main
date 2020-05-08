@@ -1,5 +1,5 @@
 {
-  "name": "mfe-app-main",
+  "name": "micro-fe",
   "version": "0.1.0",
   "private": true,
   "scripts": {
@@ -9,6 +9,7 @@
   },
   "dependencies": {
     "core-js": "^3.6.4",
+    "qiankun": "^2.0.11",
     "vue": "^2.6.11"
   },
   "devDependencies": {
