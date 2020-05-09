@@ -10,7 +10,7 @@ function vueRender({ loading }) {
         loading,
       };
     },
-    render: (h) => {
+    render(h) {
       return h(App, {
         props: {
           loading: this.loading,

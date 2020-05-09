@@ -77,7 +77,9 @@ setDefaultMountApp('/vue');
 /**
  * Step4 启动应用
  */
-start();
+start({
+  sandbox: { strictStyleIsolation: true },
+});
 
 runAfterFirstMounted(() => {
   console.log('[MainApp] first app mounted');
